@@ -1,0 +1,40 @@
+p{
+    text-align: justify;
+}
+
+.menuItems div{
+    background-color:#d9d9d9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menuItems{
+    padding:10px;
+}
+
+div.navbar-default{
+    border-radius: 0;
+}
+
+@media (max-width:767px){
+    .menuItems{
+        padding:5px 40px;
+    }
+    div.navbar-collapse{
+        background-color:#d9d9d9;
+        padding: 0;
+    }
+    
+    .nav{
+        margin: 0;
+    }
+    
+    .nav > li:nth-child(1), .nav > li:nth-child(2) {
+        text-align: center;
+        border-bottom: 1px solid #9a9a9a;
+    }
+    
+    .nav > li{
+        text-align: center;
+    }
+}
