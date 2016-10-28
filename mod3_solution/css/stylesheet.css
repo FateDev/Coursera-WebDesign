@@ -8,6 +8,10 @@ p{
     margin-bottom: 20px;
 }
 
+.navbar-brand{
+    font-size:220%;
+}
+
 .menuItems{
     padding:10px;
 }
